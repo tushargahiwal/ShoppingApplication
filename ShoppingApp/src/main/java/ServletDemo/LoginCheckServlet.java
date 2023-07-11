@@ -77,7 +77,6 @@ public class LoginCheckServlet extends HttpServlet {
 			}
 			else
 			{
-				
 				Cookie c = new Cookie("loginerror","Wrong_UID/PWD");
 				response.addCookie(c);
 				response.sendRedirect("/ShoppingApp/login.jsp");
